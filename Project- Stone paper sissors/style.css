@@ -1,0 +1,127 @@
+*{
+    margin:0;
+    padding:0;
+    text-align: center;
+
+}
+
+body{
+    background-color: rgba(143, 168, 195, 0.438);
+}
+
+
+.head1{
+    background-color: #006D77;
+    color: rgb(255, 255, 168);
+    height: 4rem;
+    line-height: 3.3rem;
+   
+} 
+
+.choice{
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choice:hover{
+    box-shadow: 0px 0px 5px black;
+    /*video dalna hai yaah prr*/
+    cursor: pointer;
+}
+
+img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+
+.choices{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 2rem;
+}
+
+.cont-comp-move{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.comp-move{
+    height: 130px;
+    width: 200px;
+    background-image: url("images/bot_empty.jpg");
+    background-size: cover;
+   
+ 
+}
+
+
+
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    margin:2rem;
+    gap:20px;
+    position: relative;
+    left:5px;
+
+}
+
+#user-score, #comp-score{
+    font-size: 4rem;
+}
+
+#txt{
+    font-size: 30px;
+}
+
+.msg-cont{
+height: 200px;
+width: 100%;
+
+display: flex;
+    justify-content: center;
+
+   
+}
+
+.msg{
+    height: 140px;
+    width: 240px;
+
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-size: 50px;
+    border-radius: 2rem;
+
+    text-align:center;
+}
+
+.cont-bot-turn{
+    height: 50px;
+width: 100%;
+
+    
+}
+
+.bot-turn{
+    height: 70px;
+    color: rgb(70, 75, 0);
+    font-size: 30px;
+display: inline;
+font-family: 'Courier New', monospace;
+text-shadow: 0px 0px 3px black;
+}
